@@ -1,0 +1,7 @@
+use_dipole: True
+use_quad: True
+use_induced_charge: True
+use_induced_dipole: True
+use_anisotropic_polarizability: True
+alpha_1o_nonlinear_readout: False
+make_alpha_positive: False

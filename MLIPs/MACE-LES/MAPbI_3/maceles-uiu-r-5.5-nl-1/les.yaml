@@ -1,0 +1,3 @@
+use_dipole: True
+use_induced_charge: False
+use_induced_dipole: True
