@@ -26,6 +26,7 @@ This project is licensed under the CC BY-NC 4.0 License.
 
 
 ```text
+
 @article{Kim2025Universal,
   title = {A Universal Augmentation Framework for Long-Range Electrostatics in Machine Learning Interatomic Potentials},
   author = {Kim, Dongjin and Wang, Xiaoyu and Vargas, Santiago and Zhong, Peichen and King, Daniel S. and Inizan, Theo Jaffrelot and Cheng, Bingqing},
@@ -66,9 +67,19 @@ This project is licensed under the CC BY-NC 4.0 License.
   year={2025}
 }
 
+@article{Kim2026Longrange,
+  title = {Long-Range Electrostatics for Machine Learning Interatomic Potentials Is Easier than We Thought},
+  author = {Kim, Dongjin and Cheng, Bingqing},
+  year = 2026,
+  journal = {The Journal of Chemical Physics},
+  volume = {164},
+  number = {6},
+  pages = {060901},
+  doi = {10.1063/5.0316886}
+}
 
 ```
 
 ## Contact
 
-For any queries regarding LES, please contact Bingqing Cheng at tonicbq@gmail.com.
+For any queries regarding this data repository, please contact Dongjin Kim at dongjin.kim@berkeley.edu
