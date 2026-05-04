@@ -17,8 +17,7 @@ from cace.data import AtomicData
 
 
 root = './best_model.pth'
-#average_E0 ={1: -5.853064337340629, 8: -2.926532168670322} # avg # This should be changed to be the same as atomic_energies set in the training script
-average_E0= {8: -18599.43617104475, 12: -8721.75974245582, 13: -9877.676428588728, 79: -688.8680063349827} # avg
+average_E0 ={1: -5.853064337340629, 8: -2.926532168670322} # avg # This should be changed to be the same as atomic_energies set in the training script
 
 cace_nnp = torch.load(root, map_location='cuda')
 
@@ -92,15 +91,3 @@ force_rmse  = rmse(ref_forces, pred_forces)
 print(f"Test file: {to_read}")
 print(f"Per-atom energy RMSE: {rmse_per_atom*1000:.4f} meV/atom")
 print(f"Force  RMSE: {force_rmse*1000:.3f} meV/Å")
-
-# summary_file = "cace_test_summary.txt"
-# header = "# system  per_atom_RMSE_meV_per_atom  force_RMSE_eV_per_A\n"
-
-# line = f"{system}  {rmse_per_atom*1000:.3f}  {force_rmse:.5f}\n"
-
-# write_header = not os.path.exists(summary_file)
-
-# with open(summary_file, "a") as f:
-#     if write_header:
-#         f.write(header)
-#     f.write(line)
