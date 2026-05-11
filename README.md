@@ -3,7 +3,7 @@
 ## Summary 
 We present extended **LES (Latent Ewald Summation)** ([https://github.com/ChengUCB/les](https://github.com/ChengUCB/les)) as a plug-in library designed to add **different levels of long-range interactions** to short-range machine learning interatomic potentials (MLIPs). 
 
-This repository contains the data and scripts used in the study [*...*](...).
+This repository contains the data and scripts used in the study [*Polarizable atomic multipoles for learning long-range electrostatics*](https://arxiv.org/abs/2605.05746).
 Here we demonstrate its integration with MLIPs such as **MACE**, **NequIP**, **Allegro**, and **CACE** and provide training scripts, trained models, and example MD scripts. 
 
 Here you can find MLIP packages **with LES implementation**.
