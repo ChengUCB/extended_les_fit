@@ -27,6 +27,11 @@ This project is licensed under the CC BY-NC 4.0 License.
 
 ```text
 
+@article{KimPolarizable,
+  title = {Polarizable Atomic Multipoles for Learning Long-Range Electrostatics},
+  author = {Kim, Dongjin and King, Daniel S and Park, Yoonjae and Savoj, Roya and Hamel, Sebastien and Wang, Xiaoyu and Cheng, Bingqing}
+}
+
 @article{Kim2025Universal,
   title = {A Universal Augmentation Framework for Long-Range Electrostatics in Machine Learning Interatomic Potentials},
   author = {Kim, Dongjin and Wang, Xiaoyu and Vargas, Santiago and Zhong, Peichen and King, Daniel S. and Inizan, Theo Jaffrelot and Cheng, Bingqing},
