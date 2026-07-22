@@ -1,0 +1,2 @@
+#python ~/repository/mace/scripts/eval_configs.py --configs ../../HfO2_becs/HfO2_becs-s10-x2.xyz --output test-mace-x2.xyz --model Hf02_stagetwo.model --batch_size 2 --default_dtype float32 --compute_bec
+python ~/repository/mace/scripts/eval_configs.py --configs ../../HfO2_becs/HfO2_becs-s10.xyz --output test-mace.xyz --model Hf02_stagetwo.model --batch_size 2 --default_dtype float32 --compute_bec
