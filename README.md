@@ -10,11 +10,21 @@ Here you can find MLIP packages **with LES implementation**.
 | Package | Link |
 |---------|------|
 | **CACE**   | [github.com/BingqingCheng/cace](https://github.com/BingqingCheng/cace) |
-| **MACE**   | [github.com/ChengUCB/mace](https://github.com/ChengUCB/mace) |
+| **MACE**   | [github.com/ACEsuit/mace]((https://github.com/ACEsuit/mace/tree/main)) |
 | **NequIP, Allegro** | [github.com/ChengUCB/NequIP-LES](https://github.com/ChengUCB/NequIP-LES) |
 
 ## 📣 Update 
-...
+
+### 31st Jul 2026
+Now the extended **LES (Latent Ewald Summation)** ([https://github.com/ChengUCB/les](https://github.com/ChengUCB/les)) with multipoles is fully torch.jit.script-friendly.
+
+### 29th Jul 2026
+The updated MACE branch is now merged with ACEsuit/main (please check the [commit](https://github.com/ACEsuit/mace/commit/e333ae6b61932a3d67dfc7eba20e962ec01a3ce4))
+
+You can now use [`main`](https://github.com/ACEsuit/mace/tree/main), and it's fully backward compatible with the trained potentials from our own branch.
+
+Our version is still available at [github.com/ChengUCB/mace](https://github.com/ChengUCB/mace)
+
 
 ## Usage 
 Please refer to the specific folder for related scripts and trained MLIPs.
